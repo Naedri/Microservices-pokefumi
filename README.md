@@ -35,7 +35,7 @@ Poke-fu-mi est une application qui permet d'organiser des combats entre maîtres
 
 #### 1. Ajout les variables d'environnement
 
-A la racine des dossiers suivants : `users-api` et `match-api` ajouter des fichiers `.env` comportant les informations suivantes : 
+A la racine des dossiers suivants : `users-api` et `match-api` ajouter des fichiers `.env` comportant les informations suivantes :
 
 ```txt
 DATABASE_URL="postgres://User:Password@tyke.db.User.com/User?schema=public"
@@ -59,7 +59,7 @@ docker compose up
 
 ### Documentation - Requêtes
 
-Des exemples de requêtes sont données pour être exécutées avec l'extension chrome [Open Talend Api teste](https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm), Celles-ci sont disponibles dans le dossier *[test](https://github.com/reifocS/IMT-pokefumi-microservices/tree/main/test)*.
+Des exemples de requêtes sont données pour être exécutées avec l'extension chrome [Open Talend Api teste](https://chrome.google.com/webstore/detail/talend-api-tester-free-ed/aejoelaoggembcahagimdiliamlcdmfm), Celles-ci sont disponibles dans le dossier _[test](https://github.com/reifocS/IMT-pokefumi-microservices/tree/main/test)_.
 
 ## Ressources
 
@@ -97,7 +97,7 @@ graph LR
     end
 ```
 
-Les bases de données utilisées étaient au départ en local avec *SQLite* mais comme ce type de base de données ne supporte pas les enumérations alors que ce projet est réalisé en TypeScript qui supporte cette puissante fonctionnalité, nous avons décidé d'utiliser des bases de données de type pqSQL.
+Les bases de données utilisées étaient au départ en local avec _SQLite_ mais comme ce type de base de données ne supporte pas les enumérations alors que ce projet est réalisé en TypeScript qui supporte cette puissante fonctionnalité, nous avons décidé d'utiliser des bases de données de type pqSQL.
 
 ### Sélection du deck pour un match
 
